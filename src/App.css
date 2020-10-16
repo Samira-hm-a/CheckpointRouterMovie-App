@@ -1,0 +1,172 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  color: #e6e6e6;
+  
+}
+/*  css for Navbar component */
+.app-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 30px;
+  font-size: calc(10px + 2vmin);
+  color: #333333;
+  padding: 20px;
+  cursor: pointer;
+}
+/* .spinner {
+  height: 80px;
+  margin: auto;
+} */
+
+/*  css for Movie Card component */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  width: 400px;
+  height: 250px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.ContainerAdd {
+  padding: 20px;
+  margin: 10px;
+  width: 550px;
+  height: 280px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(20, 20, 20);
+  color: #333333;
+  font-size: 200px;
+  cursor: pointer;
+}
+.moviedetails {
+  padding: 8px;
+  margin: 6px;
+  margin-top:5px;
+  font-size: 12px;
+  text-align: "justify";
+  color:#333333;
+  letter-spacing: 1px
+}
+.moviedetails h2 {
+  align-content: center;
+}
+.moviedetails p {
+  line-height: 1.4;
+}
+/*router*/
+.btn-secondary {
+  color: rgb(167, 27, 27); 
+  margin-left:26px;
+}
+
+/*  css for List Movies component */
+
+/*  css for Search Movie component */
+.search {
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  border-radius: 5px;
+  border:none;
+  
+}
+.searchRate h5{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  align-content: center;
+  margin-left: 8px;
+}
+.searchInput {
+  width: 300px;
+  border-radius: 5px;
+  background-color:rgb(167, 27, 27);
+  border:none;
+}
+/*animation search*/
+
+.searchInput[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.searchInput[type=text]:focus {
+  width: 90%;
+}
+
+/*  css for Rate component */
+.fa-star {
+  color: rgb(167, 27, 27);
+  font-size: 15px;
+  align-content: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding:0%;
+}
+
+/*css for Movie Trailer*/
+.movietrl {
+  text-align: center;
+  background-color: black;
+}
+.movietrldetail {
+  justify-content: center;
+  color: white;
+  text-align: center;
+  margin-right:160px;
+}
+.moviedetails h3 {
+  /* justify-content: center; */
+  color: rgb(167, 27, 27);
+}
+.movietrldetail p {
+  justify-content: space-evenly;
+
+}
+.material-icons {
+  /* justify-content: center; */
+  color: rgb(167, 27, 27);
+  margin-left: 15%;
+}
+/*btr design css addmovie*/
+
+/*****/
+/*Responsive Design*/
+@media screen and (min-width: 694px) and (max-width: 915px) {
+  .MovieCard {
+    max-width: 33%;
+  }
+}
+@media screen and (min-width: 652px) and (max-width: 693px) {
+  .MovieCard {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 651px) {
+  .MovieCard {
+    max-width: 100%;
+    margin: auto;
+  }
+}
