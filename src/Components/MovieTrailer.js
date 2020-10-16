@@ -15,11 +15,9 @@ export default function MovieTrailer({match}){
                 <div className="movietrldetail">
                     <h3>Description:</h3>
                     <p>{el.description}</p>
-                    {/* <p>  */}
                     <span className="material-icons">
                         <a href={el.trailer}>Trailer</a>
-                    </span> 
-                    {/* </p> */}
+                    </span>
                 </div> :null)}
             </div>
             <Link to="/">
