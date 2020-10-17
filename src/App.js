@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './Home'
-import {Route,Switch,Link } from 'react-router-dom';
+import { Route,Switch } from 'react-router-dom';
 import MovieTrailer from './Components/MovieTrailer';
 import "./App.css";
 
