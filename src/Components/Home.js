@@ -7,7 +7,7 @@ import { movieContainer } from "./Components/MovieContainer";
 import AddMovie from "./Components/Modal/AddMovie";
 import Footer from "./Components/Footer/Footer";
 
-function App(props) {
+function Home (props) {
   const [movieData, setMovieData] = useState(movieContainer);
   const [movieSearch, setMovieSearch] = useState("");
   const [rateMovie, setRateMovie] = useState(1);
@@ -34,4 +34,4 @@ function App(props) {
   );
 }
 
-export default App;
+export default Home;
